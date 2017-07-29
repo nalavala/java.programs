@@ -3,7 +3,8 @@ import java.util.*;
 public class Prime {
 	public static void main(String args[])
 	{
-	 int n =70;
+	 Scanner scan = new Scanner(System.in);
+	 int n = scan.nextInt;
 	 int c =0;
 	 ArrayList<Integer> primeList = new ArrayList<Integer>();
 	 ArrayList<Integer> list = new ArrayList<Integer>();
