@@ -30,6 +30,10 @@ class SylvestersSequence {
 	           System.out.println();
 	       }
 	       */
+	       
+	       /*
+	        * StringBuilder is faster than loop wise printing
+	        */
 	        int T = scan.nextInt();
 	            StringBuilder ans = new StringBuilder();
 	            for (int t = 0; t < T; t++) {
